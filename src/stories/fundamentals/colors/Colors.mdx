@@ -1,0 +1,47 @@
+import { Meta } from '@storybook/addon-docs';
+import {
+  mainColors,
+  hightLightColors,
+  grayColors,
+  buttonStatusColors,
+  textColors,
+  lowBackgroundColors,
+  gradientColors,
+} from '@ui/theme/colors';
+import ColorList from './ColorList';
+
+<Meta title="Fundamentos / Colores" />
+
+<h1>Colores</h1>
+
+- [Paleta Principal](#main-colors)
+- [Paleta de Resalto](#hightlight-colors)
+- [Paleta de Gris](#gray-colors)
+- [Paleta de Estado de Botones](#button-status-colors)
+- [Paleta de Texto](#text-colors)
+- [Paleta de Fondo Bajo](#low-background-colors)
+- [Paleta de Gradientes](#gradient-colors)
+
+<ColorList id="main-colors" title="Paleta Principal" colors={mainColors} />
+<ColorList
+  id="hightlight-colors"
+  title="Paleta de Resalto"
+  colors={hightLightColors}
+/>
+<ColorList id="gray-colors" title="Paleta de Gris" colors={grayColors} />
+<ColorList
+  id="button-status-colors"
+  title="Paleta de Estado de Botones"
+  colors={buttonStatusColors}
+/>
+<ColorList id="text-colors" title="Paleta de Texto" colors={textColors} />
+<ColorList
+  id="low-background-colors"
+  title="Paleta de Fondo Bajo"
+  colors={lowBackgroundColors}
+/>
+<ColorList
+  id="gradient-colors"
+  title="Paleta de Gradientes"
+  colors={gradientColors}
+/>
