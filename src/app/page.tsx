@@ -1,3 +1,9 @@
+import Button from '@ui/components/Button/Button';
+
 export default function Home(): JSX.Element {
-  return <div>home</div>;
+  return (
+    <>
+      <Button>esto es</Button>
+    </>
+  );
 }

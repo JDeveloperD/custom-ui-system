@@ -13,9 +13,12 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@styled-system/css": "^5.1.5",
     "next": "13.5.6",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "styled-components": "^6.1.0",
+    "styled-system": "^5.1.5"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.0.0",
@@ -31,6 +34,8 @@
     "@types/node": "^20",
     "@types/react": "^18.2.31",
     "@types/react-dom": "^18",
+    "@types/styled-system": "^5.1.20",
+    "@types/styled-system__css": "^5.0.20",
     "@typescript-eslint/eslint-plugin": "^6.8.0",
     "eslint": "^8.51.0",
     "eslint-config-next": "13.5.6",
