@@ -1,9 +1,9 @@
-import Button from '@ui/components/Button/Button';
+import Container from '@ui/components/layout/Container/Container';
 
 export default function Home(): JSX.Element {
   return (
     <>
-      <Button>esto es</Button>
+      <Container>container</Container>
     </>
   );
 }

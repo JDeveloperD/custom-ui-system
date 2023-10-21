@@ -1,3 +1,5 @@
+import { type KeyPaths } from '@ui/types';
+
 const shadows = {
   elevationLight1:
     '0px 1px 5px 0px rgba(11, 39, 57, 0.12), 0px 2px 2px 0px rgba(11, 39, 57, 0.14), 0px 3px 4px 0px rgba(11, 39, 57, 0.02)',
@@ -12,5 +14,7 @@ const shadows = {
 };
 
 export type ThemeShadows = typeof shadows;
+
+export type ThemeShadowPaths = KeyPaths<ThemeShadows>;
 
 export default shadows;
